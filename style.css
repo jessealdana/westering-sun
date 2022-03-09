@@ -110,20 +110,20 @@ img{
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     .nav {
         flex-direction: column;
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     .logo, .link {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     .cal {
         width: 100%;
         margin-left: 0;
@@ -131,19 +131,19 @@ img{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     img {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     #hikes, #rides, #fauna, #flora {
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 844px) {
     .banner, .insta {
         width: 90%;
         margin-left: 0;
@@ -157,21 +157,18 @@ img{
     .nav {
         flex-direction: column;
         width: 100%;
-        font-size: .75em;
     }
 }
 
 @media only screen and (max-width: 390px) {
     .logo, .link {
         width: 100%;
-        font-size: .75em;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .cal {
         width: 100%;
-        font-size: .75em;
         margin-left: 0;
         padding: .5em;
     }
@@ -195,6 +192,5 @@ img{
         margin-left: 0;
         padding: .5em;
         line-height: 1.3em;
-        font-size: .75em;
     }
 }
