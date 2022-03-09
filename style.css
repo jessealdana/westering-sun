@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(189, 219, 247);
+}
+
+.nav {
+    background-color: rgb(87, 109, 129);
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo {
+    width: 200px;
+    padding: .25em;
+    background-color: rgb(60, 95, 128);
+    font-size: 2em;
+    text-align: center;
+}
+
+.link {
+    width: 100px;
+    padding: 1em;
+    text-align: center;
+}
+
+.about {
+    width: 74%;
+    margin-left: 13%;
+}
+
+h1 {
+    color: rgb(60, 95, 128);
+    font-size: 2em;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+}
+
+.cal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+    padding: 2em;
+    background-color: rgb(220, 236, 250);
+    line-height: .75em;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    justify-content: space-evenly;
+}
+
+.calendar > .items {
+    text-align: center;
+}
+
+.insta {
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: auto;
+    background-color: rgba(60, 95, 128, 70%);
+    padding: 1em;
+    color: whitesmoke;
+    line-height: 1.53em;
+}
+
+#hikes {
+    background-image: url("./images/hike.png");
+}
+
+#rides {
+    background-image: url("./images/rides.png");
+}
+
+#flora {
+    background-image: url("./images/flora.png");
+}
+
+#fauna {
+    background-image: url("./images/fauna.png");
+}
+
+.footer {
+    background-color: rgb(87, 109, 129);
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em;
+    margin: 1em 0 0 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo, .link {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cal {
+        width: 100%;
+        margin-left: 0;
+        padding: .5em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #hikes, #rides, #fauna, #flora {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner, .insta {
+        width: 90%;
+        margin-left: 0;
+        padding: .5em;
+        line-height: 1.3em;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        font-size: .75em;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .logo, .link {
+        width: 100%;
+        font-size: .75em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cal {
+        width: 100%;
+        font-size: .75em;
+        margin-left: 0;
+        padding: .5em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #hikes, #rides, #fauna, #flora {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner, .insta {
+        width: fit-content;
+        margin-left: 0;
+        padding: .5em;
+        line-height: 1.3em;
+        font-size: .75em;
+    }
+}
